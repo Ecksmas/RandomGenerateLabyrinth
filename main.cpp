@@ -3,6 +3,9 @@
 #include <cstdlib>
 
 int main() {
+    // This program will create a grid filled with 12 different
+    // ASCII characters that are randomly chosen from a set array.
+    // The size of the grid is decided by the user.
 
     // Initializing integers that will be used for height and width of the grid
     int width = 0, height = 0;
@@ -17,9 +20,9 @@ int main() {
     srand(time(0));
 
     // Asks the users for the width and height of the array and the stores them in their corresponding integers
-    std::cout << "What should the labyrinth's width be: ";
+    std::cout << "Enter the labyrinth's width: ";
     std::cin >> width;
-    std::cout << "What should the labyrinth's height be: ";
+    std::cout << "Enter the labyrinth's height: ";
     std::cin >> height;
     std::cout << "\n";
 
